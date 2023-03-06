@@ -54,7 +54,6 @@ def Load(Username,Password,Adress):
 
     driver.get(Adress)
     AutoOption(driver,Username,Password)
-
 def top():
     Username='null'
     Password='null'
